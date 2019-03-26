@@ -17,7 +17,7 @@
         {
             "type": "Microsoft.Resources/resourceGroups",
             "apiVersion": "2018-05-01",
-            "location": "[parameters('rgLocation')]",
+            "location": "eastus",
             "name": "[concat(parameters('rgNamePrefix'), copyIndex())]",
             "tags":{
               "ImmersionDay2019": "1"  
