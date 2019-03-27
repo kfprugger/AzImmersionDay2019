@@ -14,15 +14,12 @@ By the time you leave the workshop, you should know the following:
 
 
 
-
-
-
-
 # Immersion Day Agenda
 
 ### Session 1: Introduction to Azure and Azure Fundamentals 
 
-- **0830-0930:** This session gives a quick overview of Azure, Azure Cloud Shell, Azure Storage, Compute and Networking. You'll also understand how we will be interacting with the different technologies of the presented in the day.
+- **0830-0930:** This session gives a quick overview of Azure, Azure Cloud Shell, Azure Storage, Compute and Networking. You'll also understand how we will be interacting with the different technologies of the presented in the day. NOTE: I will try to limit my Azure 101 overview to 30 min and then we can attack some simple labs
+- [Exercise 1 Azure Active Directory Security](AAD/AAD.md)
 
 ### Session 2: Azure Data Factory (ADF) and Data Hygiene for Analysis
 - **0930-1030:** Azure Data Factory is Microsoft's data orchestration and integration tool that you can use to manage, modify and sanitize data before, during or after analyzing it with AI/ML tools.
@@ -66,7 +63,9 @@ Thanks for spending time with Microsoft today. We're ALWAYS thrilled to come and
 - Twitter: https://twitter.com/SanchezFabricio
 - LinkedIn: https://www.linkedin.com/in/fabriciosanchez/
 
-
+# Key Links
+## Alpharetta Microsoft Technology Center 
+- [Take a look at the upcoming free Microsoft-tech events!](https://events.microsoft.com/?timeperiod=next90Days&isSharedInLocalViewMode=true&country=United%20States&language=English&city=Atlanta,%20Georgia,%20United%20States)
 
 ## Internships and Free Azure Links
 - [Azure Free $200 credit](https://azure.microsoft.com/en-us/offers/ms-azr-0044p/)
