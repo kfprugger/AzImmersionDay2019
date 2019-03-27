@@ -18,50 +18,46 @@ By the time you leave the workshop, you should know the following:
 
 ### Session 1: Introduction to Azure and Azure Fundamentals 
 
-- **0830-0930:** This session gives a quick overview of Azure, Azure Cloud Shell, Azure Storage, Compute and Networking. You'll also understand how we will be interacting with the different technologies of the presented in the day. NOTE: I will try to limit my Azure 101 overview to 30 min and then we can attack some simple labs
+- **0900-1000:** This session gives a quick overview of Azure, Azure Cloud Shell, Azure Storage, Compute and Networking. You'll also understand how we will be interacting with the different technologies of the presented in the day. NOTE: I will try to limit my Azure 101 overview to 30 min and then we can attack some simple labs
 - [Exercise 1 Azure Active Directory Security](AAD/AAD.md)
 
-### Session 2: Azure Data Factory (ADF) and Data Hygiene for Analysis
-- **0930-1030:** Azure Data Factory is Microsoft's data orchestration and integration tool that you can use to manage, modify and sanitize data before, during or after analyzing it with AI/ML tools.
-  - Due to complexity, we'll be walking through a live demo in class and talking through features that will help us "sanitize the data" before we analyze it.
+### Session 2: Serverless Website as a Service in Azure
+- **1000-1100:** We're going to walk through website creation and management of the [App Service - Web Apps](https://docs.microsoft.com/en-us/azure/app-service/overview) platform in Azure!
+  - [Exercise 2: *Microsoft Learn* App Service Creation](https://docs.microsoft.com/en-us/learn/modules/host-a-web-app-with-azure-app-service)
 
-### Session 3: Azure Machine Learning Studio Lab and Data Sanitation
-- **1045-1145:** Our second lab will analyze and sanitize a large amount of data in our friendly, low-code ML Studio UX. Our objective is to visualize this large dataset, sanitize it and then infer predictions based on the previously collected data using a ML algorithm.
+### Session 3: Azure SQL Database as a Service
+- **1115-1215:** We'll focus on Azure's fully managed Platform-as-a-Service (PaaS) [SQL solution](https://docs.microsoft.com/en-us/azure/sql-database/)
 
-- [Azure ML Studio Hands-On Lab](https://github.com/kfprugger/MLDay/blob/master/MLStudio/create-experiment.md#open-machine-learning-studio)
+- [Exercise 3: *Microsoft Learn* provisioning of a SQL database ](https://docs.microsoft.com/en-us/learn/modules/provision-azure-sql-db/)
+### Azure Cloud Storage and Backup
+- **1330-1430:** This session will cover Azure storage, backup and DR functionality available. Azure was the first cloud to focus on hybrid (on-premises + cloud-native) technologies so this sessions will undoubtedly leave questions. Please [follow-up here for backup](https://docs.microsoft.com/en-us/azure/backup/backup-overview) and [follow-up here for BCDR tech aka ASR](https://docs.microsoft.com/en-us/azure/site-recovery/)
+-  [Exercise 4: Setup Azure Backup to backup your local PC](backup/tutorial-backup-windows-server-to-azure.md)
 
-### Session 4: Listen, Learn & Lunch Presented by Azure Machine Learning Service
-- **1230-1330:** This demonstration focuses the new Azure Machine Learning consolidated service that provides SDKs and services to quickly prep data, train, and deploy machine learning models. Improve productivity and costs with auto-scaling compute & pipelines. Use these capabilities with open-source Python frameworks, such as PyTorch, TensorFlow, and scikit-learn.
-- [LearnAI Bootcamp](https://github.com/Azure/data-ai-iot/tree/master/LearnAI-bootcamp)
 
-- [AISchool](https://github.com/Azure/data-ai-iot/tree/master/AISchool)
-### Session 5: Databricks (Apache Spark ML Made Easier)
-- **1330-1430:** This lab will setup a Databricks workspace. Databricks a hosted Apache Spark environment that is simplified so that minimal infrastructure knowledge is needed to leverage the platform in order to employ Spark Machine Learning or Big Data notebooks.
+### Session 5: Azure DevOps (Pipelines for CI/CD)
+- **1330-1430:** Azure DevOps is a HUGE suite of products that include [Boards](https://docs.microsoft.com/en-us/azure/devops/boards/index) (Kanban), [Pipelines](https://docs.microsoft.com/en-us/azure/devops/pipelines/index) (CI/CD Automation), [Artifacts](https://docs.microsoft.com/en-us/azure/devops/artifacts/index?view=azure-devops) (Package Manager), [Test Plans](https://docs.microsoft.com/en-us/azure/devops/test/index-tp?view=azure-devops), and [Repos](https://docs.microsoft.com/en-us/azure/devops/repos/index?view=azure-devops) (Source code repository Manager)
 
-- [Databricks Setup and Lab 1 Hands-On Lab](https://github.com/kfprugger/MLDay/blob/master/DatabricksML/HOL%20step-by%20step%20-%20Cognitive%20services%20and%20deep%20learning.md#exercise-1-setup-azure-databricks-workspace)
-  - Exercise 1 and Exercise 2
+- [Exercise 5: Azure DevOps Simple CI/CD Pipeline](https://github.com/kfprugger/MLDay/blob/master/DatabricksML/HOL%20step-by%20step%20-%20Cognitive%20services%20and%20deep%20learning.md#exercise-1-setup-azure-databricks-workspace)
+  - [Optional Exercise]
 
 ### (If we have time) Session 6: Cognitive Services (pre-trained ML), Data Lakes and Deep Neural Networks
 - **1445-1600:** In Exercise 3, we'll use the opensource TensorFlow ML library to analyze the data even further by using deploying a simple Deep Neural Network which will classify claims data.
   - If we have time, Exercise 4 leverages pre-built, compiled and inexpensive public Azure services to analyze the text with Microsoft's Text Analytics API which is part of the Cognitive Services toolkit. These services can be leverage in ANY code, anywhere securely so long as the code has access to the internet.
 
 - [Azure Databricks + TensorFlow Hands-On Lab](https://github.com/kfprugger/MLDay/blob/master/DatabricksML/HOL%20step-by%20step%20-%20Cognitive%20services%20and%20deep%20learning.md#exercise-3-create-and-deploy-a-tensorflow-model)
-  - Exercise 3 & 4 (if you have time)
+  - [Exercise 3 & 4 (if you have time)](https://docs.microsoft.com/en-us/learn/modules/load-test-web-app-azure-devops/)
 
 # Follow-Up
 Thanks for spending time with Microsoft today. We're ALWAYS thrilled to come and speak about our technology and we'd love to hear back from you! Please see below for our contact information and survey.
-# ML Day Survey
-## **[ML Day Survey](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR3vmVKFttl1JjVF3shHsVeNUMDVCMUlOWUFURDE0UllPQ1dQNzVHWVpENS4u)**
+# Immersion Day Survey
+## **[Immersion Day Survey](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR3vmVKFttl1JjVF3shHsVeNUQVVQMVhBMTlINVUzUjU5U1gwWlo5MlNYTS4u)**
 # Microsoft Contact
 ## Joey Brakefield, Cloud Solutions Architect (Southeast Region -- Atlanta, GA)
 - Email:    joey.brakefield@microsoft.com 
 - Twitter:  http://twitter.com/kfprugger
 - LinkedIn: https://www.linkedin.com/in/joeybrakefield/ 
 - GitHub:   https://github.com/kfprugger
-## Fabricio Lopes Sanchez , Cloud Solutions Architect (National Team -- Ft. Lauderdale, FL)
-- Email: Fabrcio.Sanchez@microsoft.com
-- Twitter: https://twitter.com/SanchezFabricio
-- LinkedIn: https://www.linkedin.com/in/fabriciosanchez/
+
 
 # Key Links
 ## Alpharetta Microsoft Technology Center 
