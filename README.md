@@ -38,7 +38,7 @@ By the time you leave the workshop, you should know the following:
 - **1445-1600:** Azure DevOps is a HUGE suite of products that include [Boards](https://docs.microsoft.com/en-us/azure/devops/boards/index) (Kanban), [Pipelines](https://docs.microsoft.com/en-us/azure/devops/pipelines/index) (CI/CD Automation), [Artifacts](https://docs.microsoft.com/en-us/azure/devops/artifacts/index?view=azure-devops) (Package Manager), [Test Plans](https://docs.microsoft.com/en-us/azure/devops/test/index-tp?view=azure-devops), and [Repos](https://docs.microsoft.com/en-us/azure/devops/repos/index?view=azure-devops) (Source code repository Manager)
 
 - [Exercise 5: Azure DevOps Simple CI/CD Pipeline]()
-  - [Optional Exercise](https://github.com/kfprugger/MLDay/blob/master/DatabricksML/HOL%20step-by%20step%20-%20Cognitive%20services%20and%20deep%20learning.md#exercise-1-setup-azure-databricks-workspace)
+  - [Optional Exercise for DevOps Test Plans on a Website](https://docs.microsoft.com/en-us/learn/modules/load-test-web-app-azure-devops/)
 
 
 # Follow-Up
