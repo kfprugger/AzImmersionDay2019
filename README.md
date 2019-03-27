@@ -10,7 +10,10 @@ By the time you leave the workshop, you should know the following:
 - How to create and administer a serverless website
 - Understand how to secure resources and how security in the cloud relates to the security practices already implemented on-campus
 
-
+## Pre-Reqs
+- Install [(Free!) Visual Studio Code](https://code.visualstudio.com/Download). This is the most (marketing would have to back me up here :-) )lightweight Integrated Development Environment (IDE).
+- Ensure you can access https://portal.azure.com with your intitutional (xyz@abc.edu) logins.
+- [Optional: Download Free Git Desktop](https://desktop.github.com/)
 
 
 
@@ -18,27 +21,30 @@ By the time you leave the workshop, you should know the following:
 
 ### Session 1: Introduction to Azure and Azure Fundamentals 
 
-- **0900-1000:** This session gives a quick overview of Azure, Azure Cloud Shell, Azure Storage, Compute and Networking. You'll also understand how we will be interacting with the different technologies of the presented in the day. NOTE: I will try to limit my Azure 101 overview to 30 min and then we can attack some simple labs
-- [Exercise 1 Azure Active Directory Security](AAD/AAD.md)
+- **0900-1000:** This session gives a quick overview of Azure, Azure Cloud Shell, Azure Storage, Compute and Networking. You'll also understand how we will be interacting with the different technologies of the presented in the day. NOTE: I will try to limit my Azure 101 overview to 30 min and then we can run through a simple lab.
+  
+  - [Exercise 1 Azure Active Directory Security](AAD/AAD.md)
 
 ### Session 2: Serverless Website as a Service in Azure
 - **1000-1100:** We're going to walk through website creation and management of the [App Service - Web Apps](https://docs.microsoft.com/en-us/azure/app-service/overview) platform in Azure!
+  
   - [Exercise 2: *Microsoft Learn* App Service Creation](https://docs.microsoft.com/en-us/learn/modules/host-a-web-app-with-azure-app-service)
 
 ### Session 3: Azure SQL Database as a Service
 - **1115-1215:** We'll focus on Azure's fully managed Platform-as-a-Service (PaaS) [SQL solution](https://docs.microsoft.com/en-us/azure/sql-database/)
 
-- [Exercise 3: *Microsoft Learn* provisioning of a SQL database ](https://docs.microsoft.com/en-us/learn/modules/provision-azure-sql-db/)
+  - [Exercise 3: *Microsoft Learn* provisioning of a SQL database](https://docs.microsoft.com/en-us/learn/modules/provision-azure-sql-db/)
+  
 ### Session 4: Azure Cloud Storage and Backup
 - **1330-1430:** This session will cover Azure storage, backup and DR functionality available. Azure was the first cloud to focus on hybrid (on-premises + cloud-native) technologies so this sessions will undoubtedly leave questions. Please [follow-up here for backup](https://docs.microsoft.com/en-us/azure/backup/backup-overview) and [follow-up here for BCDR tech aka ASR - Azure Site Recovery.](https://docs.microsoft.com/en-us/azure/site-recovery/)
--  [Exercise 4: Setup Azure Backup to backup your local PC](backup/tutorial-backup-windows-server-to-azure.md)
+  
+  -  [Exercise 4: Setup Azure Backup to backup your local PC](backup/tutorial-backup-windows-server-to-azure.md)
 
 
 ### Session 5: Azure DevOps (Pipelines for CI/CD)
 - **1445-1600:** Azure DevOps is a HUGE suite of products that include [Boards](https://docs.microsoft.com/en-us/azure/devops/boards/index) (Kanban), [Pipelines](https://docs.microsoft.com/en-us/azure/devops/pipelines/index) (CI/CD Automation), [Artifacts](https://docs.microsoft.com/en-us/azure/devops/artifacts/index?view=azure-devops) (Package Manager), [Test Plans](https://docs.microsoft.com/en-us/azure/devops/test/index-tp?view=azure-devops), and [Repos](https://docs.microsoft.com/en-us/azure/devops/repos/index?view=azure-devops) (Source code repository Manager)
 
-- [Exercise 5: Azure DevOps Simple CI/CD Pipeline]()
-  - [Optional Exercise for DevOps Test Plans on a Website](https://docs.microsoft.com/en-us/learn/modules/load-test-web-app-azure-devops/)
+  - [Exercise 5: Using CI/CD Pipelines in Azure](devops-project/exercise5.md)
 
 
 # Follow-Up
