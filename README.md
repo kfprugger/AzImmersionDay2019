@@ -75,4 +75,4 @@ Thanks for spending time with Microsoft today. We're ALWAYS thrilled to come and
 - [GitHub Quickstart Templates to Test Out New Tech!](https://github.com/Azure/azure-quickstart-templates)
 - [Azure Governance Links - For IT Admins in Azure](https://www.linkedin.com/feed/update/urn:li:activity:6488065944924094464/)
 
-# [How to Price Azure?](https://azure.microsoft.com/en-us/pricing/calculator/?msclkid=f7ddc7cbfbb91f535bb19b8084682384&OCID=AID719825_SEM_YI7Ea97y&lnkd=Bing_Azure_Brand&dclid=CInq6rjwieACFdBgwQodZYYAxw)
+## [How to Price Azure?](https://azure.microsoft.com/en-us/pricing/calculator/?msclkid=f7ddc7cbfbb91f535bb19b8084682384&OCID=AID719825_SEM_YI7Ea97y&lnkd=Bing_Azure_Brand&dclid=CInq6rjwieACFdBgwQodZYYAxw)
