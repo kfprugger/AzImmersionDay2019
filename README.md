@@ -11,9 +11,12 @@ By the time you leave the workshop, you should know the following:
 - Understand how to secure resources and how security in the cloud relates to the security practices already implemented on-campus
 
 ## Pre-Reqs
-- Install [(Free!) Visual Studio Code](https://code.visualstudio.com/Download). This is the most (marketing would have to back me up here :-) )lightweight Integrated Development Environment (IDE).
+- Signup for a [free GitHub account](https://github.com/) if you don't have one already
+- Install [the free Visual Studio Code editor](https://code.visualstudio.com/Download). This is the most (marketing would have to back me up here :-)) lightweight Integrated Development Environment (IDE).
+  - [After VS Code install, Install Azure Pipelines extension](https://marketplace.visualstudio.com/items?itemName=ms-azure-devops.azure-pipelines)
+  - [GitHub Pull Requests extension for VS Code extensions](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
 - Ensure you can access https://portal.azure.com with your intitutional (xyz@abc.edu) logins.
-- [Optional: Download Free Git Desktop](https://desktop.github.com/)
+- [Download Free Git Desktop](https://desktop.github.com/)
 
 
 
