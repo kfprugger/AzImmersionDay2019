@@ -66,7 +66,7 @@ Thanks for spending time with Microsoft today. We're ALWAYS thrilled to come and
 - GitHub:   https://github.com/kfprugger
 
 ## Tim Wheatley, Account Technology Strategist (Southeast Region -- Atlanta, GA)
-- Email:    tim.wheat@microsoft.com
+- Email:    timwheat@microsoft.com
 - Twitter:  @wheatleyt
 - LinkedIn: https://www.linkedin.com/in/timwheatley/
 
