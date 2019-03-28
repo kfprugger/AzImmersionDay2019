@@ -33,11 +33,14 @@ By the time you leave the workshop, you should know the following:
   
   - [Exercise 2: *Microsoft Learn* App Service Creation](https://docs.microsoft.com/en-us/learn/modules/host-a-web-app-with-azure-app-service)
     - **Note** that MS Learn says to get started with a "sandbox." This is not needed as you already have a resource group from exercise 1 that is your very own in which you can do all the tasks in the Exercise.
+    - **Note** Make sure to use your own resource group from Exercise 1
 
 ### Session 3: Azure SQL Database as a Service
 - **1115-1215:** We'll focus on Azure's fully managed Platform-as-a-Service (PaaS) [SQL solution](https://docs.microsoft.com/en-us/azure/sql-database/)
 
   - [Exercise 3: *Microsoft Learn* provisioning of a SQL database](https://docs.microsoft.com/en-us/learn/modules/provision-azure-sql-db/)
+    - **Note** that MS Learn says to get started with a "sandbox." This is not needed as you already have a resource group from exercise 1 that is your very own in which you can do all the tasks in the Exercise.
+    - **Note** Make sure to use your own resource group from Exercise 1
   
 ### Session 4: Azure Cloud Storage and Backup
 - **1330-1430:** This session will cover Azure storage, backup and DR functionality available. Azure was the first cloud to focus on hybrid (on-premises + cloud-native) technologies so this sessions will undoubtedly leave questions. Please [follow-up here for backup](https://docs.microsoft.com/en-us/azure/backup/backup-overview) and [follow-up here for BCDR tech aka ASR - Azure Site Recovery.](https://docs.microsoft.com/en-us/azure/site-recovery/)
