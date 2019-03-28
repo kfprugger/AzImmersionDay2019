@@ -29,9 +29,10 @@ By the time you leave the workshop, you should know the following:
   - [Exercise 1 Azure Active Directory Security](AAD/AAD.md)
 
 ### Session 2: Serverless Website as a Service in Azure
-- **1000-1100:** We're going to walk through website creation and management of the [App Service - Web Apps](https://docs.microsoft.com/en-us/azure/app-service/overview) platform in Azure!
+- **1000-1100:** We're going to walk through website creation and management of the [App Service - Web Apps](https://docs.microsoft.com/en-us/azure/app-service/overview) platform in Azure! 
   
   - [Exercise 2: *Microsoft Learn* App Service Creation](https://docs.microsoft.com/en-us/learn/modules/host-a-web-app-with-azure-app-service)
+  - **Note** that MS Learn says to get started with a "sandbox." This is not needed as you already have a resource group from exercise 1 that is your very own in which you can do all the tasks in the Exercise.
 
 ### Session 3: Azure SQL Database as a Service
 - **1115-1215:** We'll focus on Azure's fully managed Platform-as-a-Service (PaaS) [SQL solution](https://docs.microsoft.com/en-us/azure/sql-database/)
